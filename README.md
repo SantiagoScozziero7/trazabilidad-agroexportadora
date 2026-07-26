@@ -3,7 +3,9 @@
 Análisis en SQL de la relación entre producción agrícola y deforestación por provincia en 
 Argentina, en el contexto de la regulación europea EUDR.
 
-https://trazabilidad-agroexportadora-pexwrrd6f48jyrkpqykqip.streamlit.app
+[👉 Ver dashboard interactivo](https://trazabilidad-agroexportadora-pexwrrd6f48jyrkpqykqip.streamlit.app)
+
+![Dashboard - Ranking de producción](images/dashboard_preview.png)
 
 ---
 
@@ -28,6 +30,8 @@ deben resolver los exportadores argentinos para poder seguir vendiéndole a Euro
 6. ¿Cómo evolucionó la producción a lo largo del tiempo en las provincias de mayor riesgo?
 
 ## 📊 Principales hallazgos
+
+![Evolución temporal interactiva](images/evolucion_interactiva.png)
 
 - **Buenos Aires, Córdoba y Santa Fe** concentran la mayor parte de la producción, pero son 
   las provincias con **menor** deforestación — el riesgo no está donde está el volumen.
