@@ -3,7 +3,7 @@
 Análisis en SQL de la relación entre producción agrícola y deforestación por provincia en 
 Argentina, en el contexto de la regulación europea EUDR.
 
-[👉 Ver dashboard interactivo](#) *(agregar link una vez desplegado en Streamlit Cloud)*
+https://trazabilidad-agroexportadora-pexwrrd6f48jyrkpqykqip.streamlit.app
 
 ---
 
