@@ -7,6 +7,16 @@ Argentina, en el contexto de la regulación europea EUDR.
 
 ![Dashboard - Ranking de producción](images/dashboard_preview.png)
 
+## 📊 Reporte en Power BI
+
+Además del dashboard en Streamlit, se armó una versión del análisis en Power BI, pensada 
+como reporte ejecutivo: filtros interactivos por cultivo y rango de años, tarjetas con 
+métricas clave, y un mapa de Argentina con la distribución geográfica de la deforestación.
+
+![Reporte Power BI](images/powerbi_preview.png)
+
+El archivo `.pbix` está disponible en la carpeta [`powerbi/`](powerbi/) de este repositorio 
+(requiere Power BI Desktop para abrirlo).
 ---
 
 ## 📌 El problema
@@ -57,6 +67,7 @@ deben resolver los exportadores argentinos para poder seguir vendiéndole a Euro
 - **Matplotlib** — visualizaciones exploratorias
 - **Plotly** — gráfico interactivo (hover, zoom)
 - **Streamlit** — dashboard web
+- **Power BI** — reporte ejecutivo interactivo (segunda versión del análisis)
 
 ## 📁 Estructura del proyecto
 
