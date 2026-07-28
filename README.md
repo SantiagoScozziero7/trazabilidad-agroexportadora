@@ -74,9 +74,20 @@ deben resolver los exportadores argentinos para poder seguir vendiéndole a Euro
 ```
 trazabilidad-agroexportadora/
 │
+├── app/
+│   └── dashboard.py       # Dashboard interactivo en Streamlit
+│
 ├── data/
-│   ├── raw/              # CSVs originales, sin modificar
-│   └── processed/        # CSVs limpios, listos para SQL
+│   ├── raw/                # CSVs originales, sin modificar
+│   └── processed/          # CSVs limpios, listos para SQL
+│
+├── database/
+│   └── trazabilidad.db     # Base de datos SQLite
+│
+├── images/
+│   ├── dashboard_preview.png       # Captura del dashboard (Streamlit)
+│   ├── evolucion_interactiva.png   # Captura del gráfico interactivo (Plotly)
+│   └── powerbi_preview.png         # Captura del reporte (Power BI)
 │
 ├── notebooks/
 │   ├── 01_exploracion.ipynb
@@ -85,6 +96,9 @@ trazabilidad-agroexportadora/
 │   ├── 04_analisis_sql.ipynb
 │   └── 05_graficos.ipynb
 │
+├── powerbi/
+│   └── trazabilidad-agroexportadora.pbix   # Reporte en Power BI
+│
 ├── sql/
 │   ├── ranking_produccion.sql
 │   ├── ranking_deforestacion.sql
@@ -92,12 +106,6 @@ trazabilidad-agroexportadora/
 │   ├── clasificacion_riesgo.sql
 │   ├── riesgo_por_cultivo.sql
 │   └── evolucion_alto_riesgo.sql
-│
-├── database/
-│   └── trazabilidad.db
-│
-├── app/
-│   └── dashboard.py
 │
 ├── README.md
 └── requirements.txt
