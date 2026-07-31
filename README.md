@@ -17,6 +17,18 @@ métricas clave, y un mapa de Argentina con la distribución geográfica de la d
 
 El archivo `.pbix` está disponible en la carpeta [`powerbi/`](powerbi/) de este repositorio 
 (requiere Power BI Desktop para abrirlo).
+
+## 🤖 Exploración de Machine Learning
+
+Como ejercicio adicional de aprendizaje, se probaron modelos de Machine Learning para 
+predecir la producción agrícola a partir de año, provincia y cultivo (regresión lineal y 
+Random Forest). Los modelos alcanzaron un poder predictivo limitado (R² máximo de 0.324), 
+lo cual en sí mismo es un hallazgo relevante: revela que factores no incluidos en este 
+dataset —clima, tecnología, precios internacionales— pesan más en la producción real que 
+las variables geográficas y temporales disponibles.
+
+Ver el detalle completo, con la comparación de los 4 modelos entrenados, en 
+[`notebooks/06_machine_learning.ipynb`](notebooks/06_machine_learning.ipynb).
 ---
 
 ## 📌 El problema
@@ -68,6 +80,7 @@ deben resolver los exportadores argentinos para poder seguir vendiéndole a Euro
 - **Plotly** — gráfico interactivo (hover, zoom)
 - **Streamlit** — dashboard web
 - **Power BI** — reporte ejecutivo interactivo (segunda versión del análisis)
+- **scikit-learn** — modelos de Machine Learning (regresión lineal, Random Forest)
 
 ## 📁 Estructura del proyecto
 
@@ -94,7 +107,8 @@ trazabilidad-agroexportadora/
 │   ├── 02_limpieza.ipynb
 │   ├── 03_carga_sql.ipynb
 │   ├── 04_analisis_sql.ipynb
-│   └── 05_graficos.ipynb
+│   ├── 05_graficos.ipynb
+│   └── 06_machine_learning.ipynb
 │
 ├── powerbi/
 │   └── trazabilidad-agroexportadora.pbix   # Reporte en Power BI
